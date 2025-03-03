@@ -2,9 +2,6 @@
 function triangle(value1, type1, value2, type2) {
 
     let a, b, c, alpha, beta;
-  
-    console.log("Usage: triangle(value1, type1, value2, type2)");
-    console.log("Types: 'leg', 'hypotenuse', 'adjacent angle', 'opposite angle', 'angle'");
 
     const DEG_TO_RAD = Math.PI / 180;
     const RAD_TO_DEG = 180 / Math.PI;
@@ -73,12 +70,11 @@ function triangle(value1, type1, value2, type2) {
             return "failed";
         }
 
-        // Output results
-        console.log(`a (leg): ${a.toFixed(2)}`);
-        console.log(`b (leg): ${b.toFixed(2)}`);
-        console.log(`c (hypotenuse): ${c.toFixed(2)}`);
-        console.log(`alpha (angle opposite a): ${alpha.toFixed(2)}°`);
-        console.log(`beta (angle opposite b): ${beta.toFixed(2)}°`);
+        console.log(`a : ${a.toFixed(2)}`);
+        console.log(`b : ${b.toFixed(2)}`);
+        console.log(`c : ${c.toFixed(2)}`);
+        console.log(`alpha : ${alpha.toFixed(2)}°`);
+        console.log(`beta: ${beta.toFixed(2)}°`);
 
         return "success";
     } catch (error) {
