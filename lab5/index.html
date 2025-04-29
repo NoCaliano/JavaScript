@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Outside Of The Box</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="menu-screen active">
+        <div class="select-group">
+            <div>
+                <p for="colorSelect">Колір фігури:</p>
+                <select id="colorSelect">
+                    <option value="green">Зелений</option>
+                    <option value="red">Червоний</option>
+                    <option value="black">Чорний</option>
+                </select>
+            </div>
+
+            <div>
+                <p for="difficultySelect">Рівень:</p>
+                <select id="difficultySelect">
+                    <option value="easy">Легкий</option>
+                    <option value="medium">Середній</option>
+                    <option value="hard">Складний</option>
+                </select>
+            </div>
+        </div>
+
+        <button id="startBtn">Старт</button>
+    </div>
+
+    <div class="play-screen">
+        <div class="target-square"></div>
+        <div class="points">Бали: 0</div>
+        <div class="time">0</div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
