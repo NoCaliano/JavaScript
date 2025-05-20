@@ -1,0 +1,37 @@
+{
+    "title": "Snacks",
+    "items": [
+        {
+            "id": 1,
+            "name": "Choco Bar",
+            "shortname": "choco",
+            "description": "Sweet delight",
+            "price": "$1.50",
+            "image": "https://place-hold.it/150x150?text=Choco"
+        },
+        {
+            "id": 2,
+            "name": "Potato Chips",
+            "shortname": "chips",
+            "description": "Crunchy and salty",
+            "price": "$2.30",
+            "image": "https://place-hold.it/150x150?text=Chips"
+        },
+        {
+            "id": 3,
+            "name": "Fruit Gummies",
+            "shortname": "gummies",
+            "description": "Fruity fun shapes",
+            "price": "$1.99",
+            "image": "https://place-hold.it/150x150?text=Gummies"
+        },
+        {
+            "id": 4,
+            "name": "Candy Mix",
+            "shortname": "candy",
+            "description": "A mix of sweet treats",
+            "price": "$3.00",
+            "image": "https://place-hold.it/150x150?text=Candy"
+        }
+    ]
+}

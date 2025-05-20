@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Toys",
+        "shortname": "toys",
+        "notes": "Fun stuff for all ages"
+    },
+    {
+        "id": 2,
+        "name": "Tools",
+        "shortname": "tools",
+        "notes": "Build and fix anything"
+    },
+    {
+        "id": 3,
+        "name": "Snacks",
+        "shortname": "snacks",
+        "notes": "Yummy treats for everyone"
+    },
+    {
+        "id": 4,
+        "name": "Clothes",
+        "shortname": "clothes",
+        "notes": "Fashion and comfort"
+    }
+]

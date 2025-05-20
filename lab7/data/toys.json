@@ -1,0 +1,45 @@
+{
+    "title": "Toys",
+    "items": [
+        {
+            "id": 1,
+            "name": "Rubik's Cube",
+            "shortname": "cube",
+            "description": "Classic brain teaser puzzle",
+            "price": "$5.99",
+            "image": "https://place-hold.it/150x150?text=Cube"
+        },
+        {
+            "id": 2,
+            "name": "Toy Car",
+            "shortname": "car",
+            "description": "Mini racing car for fun",
+            "price": "$3.49",
+            "image": "https://place-hold.it/150x150?text=Car"
+        },
+        {
+            "id": 3,
+            "name": "Lego Set",
+            "shortname": "lego",
+            "description": "Build your imagination",
+            "price": "$19.99",
+            "image": "https://place-hold.it/150x150?text=Lego"
+        },
+        {
+            "id": 4,
+            "name": "Dollhouse",
+            "shortname": "dollhouse",
+            "description": "Beautifully crafted dollhouse",
+            "price": "$29.99",
+            "image": "https://place-hold.it/150x150?text=Dollhouse"
+        },
+        {
+            "id": 5,
+            "name": "Action Figure",
+            "shortname": "actionfigure",
+            "description": "Poseable action figure",
+            "price": "$12.50",
+            "image": "https://place-hold.it/150x150?text=ActionFigure"
+        }
+    ]
+}

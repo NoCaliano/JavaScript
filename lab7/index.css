@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f4f8;
+    color: #333;
+}
+
+header {
+    background: #263238;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.links-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.category-link {
+    background-color: #0097a7;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.category-link:hover {
+    background-color: #00796b;
+}
+
+#content {
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 10px;
+}
+
+.category-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.item-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.item-info {
+    flex: 1;
+}
+
+.item-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.item-price {
+    color: #388e3c;
+    margin-top: 8px;
+}

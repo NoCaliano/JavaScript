@@ -1,0 +1,45 @@
+{
+    "title": "Tools",
+    "items": [
+        {
+            "id": 1,
+            "name": "Screwdriver Set",
+            "shortname": "screwdrivers",
+            "description": "All sizes included",
+            "price": "$10.50",
+            "image": "https://place-hold.it/150x150?text=Screwdriver"
+        },
+        {
+            "id": 2,
+            "name": "Hammer",
+            "shortname": "hammer",
+            "description": "Durable steel hammer",
+            "price": "$8.75",
+            "image": "https://place-hold.it/150x150?text=Hammer"
+        },
+        {
+            "id": 3,
+            "name": "Wrench Set",
+            "shortname": "wrenches",
+            "description": "Adjustable and fixed sizes",
+            "price": "$15.00",
+            "image": "https://place-hold.it/150x150?text=Wrench"
+        },
+        {
+            "id": 4,
+            "name": "Drill",
+            "shortname": "drill",
+            "description": "Cordless drill with accessories",
+            "price": "$45.00",
+            "image": "https://place-hold.it/150x150?text=Drill"
+        },
+        {
+            "id": 5,
+            "name": "Measuring Tape",
+            "shortname": "tape",
+            "description": "25ft retractable tape measure",
+            "price": "$5.99",
+            "image": "https://place-hold.it/150x150?text=Tape"
+        }
+    ]
+}
