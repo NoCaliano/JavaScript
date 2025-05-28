@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.topbar {
+    background-color: #20232a;
+    color: white;
+    padding: 20px 0;
+}
+
+.brand {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.topbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+}
+
+.menu-items {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.menu-items li a {
+    color: white;
+    text-decoration: none;
+}
+
+.burger-btn {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.burger-menu {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s ease;
+    background-color: #343a40;
+    padding: 0 15px;
+    flex-direction: column;
+}
+
+.burger-menu ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.burger-menu ul li {
+    padding: 10px 0;
+}
+
+.burger-menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.burger-menu.active {
+    max-height: 300px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.slider-section {
+    padding: 40px 0;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-img {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 33.33%;
+    text-align: center;
+    padding: 100px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.arrow-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 28px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    padding: 8px 12px;
+}
+
+.left-btn {
+    left: 10px;
+}
+
+.right-btn {
+    right: 10px;
+}
+
+.slider-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.slider-dots span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #bbb;
+    border-radius: 50%;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.slider-dots .selected {
+    background: #333;
+}
+
+.photo-large {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.photo-medium {
+    display: none;
+    margin: 30px 0;
+    justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+
+    .burger-btn {
+        display: block;
+    }
+
+    .photo-large {
+        display: none;
+    }
+
+    .photo-medium {
+        display: flex;
+    }
+
+    .slider-img {
+        min-width: 50%;
+    }
+}
