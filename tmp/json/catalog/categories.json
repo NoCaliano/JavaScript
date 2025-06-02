@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Диски",
+        "shortname": "disks",
+        "notes": "Фізичні копії ігор",
+        "image": "images/catalog/categories/disks.png"
+    },
+    {
+        "id": 2,
+        "name": "Девайси",
+        "shortname": "devices",
+        "notes": "Надійні клавіатури, мишки, навушники і т. п.",
+        "image": "images/catalog/categories/devices.png"
+    },
+    {
+        "id": 3,
+        "name": "Настільні ігри",
+        "shortname": "board-games",
+        "notes": "Ігри для пар, друзів та дітей",
+        "image": "images/catalog/categories/board-games.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Steam Keys",
+        "shortname": "steam-keys",
+        "notes": "Ексклюзивні Steam ключі",
+        "image": "images/catalog/categories/steam-keys.png"
+    },
+    {
+        "id": 5,
+        "name": "Мерч",
+        "shortname": "merch",
+        "notes": "Наш супер крутий кастомний мерч!",
+        "image": "images/catalog/categories/merch.png"
+    }
+]
